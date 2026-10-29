@@ -1,34 +1,145 @@
-<h1 align="center">Hi 👋, I'm Md. Shams Imran Shuvo</h1>
-<h3 align="center">Knows nothing. First BREAK a thing, then FIX it.</h3>
+<h1 align="center">Hi 👋, I'm Md. Shams Imran (Shuvo)</h1>
+<h3 align="center">Lead DevOps Engineer · Kubernetes · GitOps · DevSecOps</h3>
+<p align="center">Dhaka, Bangladesh 🇧🇩 · <i>I break things on purpose so production doesn't break by accident.</i></p>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=shams-imran&label=Profile%20views&color=0e75b6&style=flat" alt="shams-imran" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=shams-imran" alt="shams-imran" /></a> </p>
-
-<p align="left"> <a href="https://twitter.com/321shuvo" target="blank"><img src="https://img.shields.io/twitter/follow/321shuvo?logo=twitter&style=for-the-badge" alt="321shuvo" /></a> </p>
-
-- 🔭 I’m currently working on **Data Integration Platform**
-
-- 🌱 I’m currently learning **System Design and DevOps**
-
-- 💬 Ask me about **Docker,Kubernetes, System design**
-
-- 📫 How to reach me **imranmdshams@gmail.com**
-
-- ⚡ Fun fact **Most innocent person after destroying production**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/321shuvo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="321shuvo" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/shuvo321" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="shuvo321" height="30" width="40" /></a>
-<a href="https://fb.com/shams.imran.shuvo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="shams.imran.shuvo" height="30" width="40" /></a>
+<p align="center">
+  <a href="https://shamsimran.iam.bd"><img src="https://img.shields.io/badge/Portfolio-shamsimran.iam.bd-0e75b6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://shamsimran.iam.bd/Resume_Of_Md_Shams_Imran.pdf"><img src="https://img.shields.io/badge/Resume-PDF-555555?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume"/></a>
+  <a href="https://www.linkedin.com/in/shams-imran"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://x.com/321shuvo"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
+  <a href="mailto:imranmdshams@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://codeigniter.com" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" alt="codeigniter" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.elastic.co" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="elasticsearch" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://grafana.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.elastic.co/kibana" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elasticco_kibana/elasticco_kibana-icon.svg" alt="kibana" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://laravel.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://mariadb.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.rabbitmq.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="rabbitMQ" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/CKA-Certified%20Kubernetes%20Administrator-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="CKA"/>
+  <img src="https://img.shields.io/badge/RHCSA-Red%20Hat%20Certified-EE0000?style=flat-square&logo=redhat&logoColor=white" alt="RHCSA"/>
+</p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=shams-imran&show_icons=true&locale=en&layout=compact" alt="shams-imran" /></p>
+---
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=shams-imran&show_icons=true&locale=en" alt="shams-imran" /></p>
+### 🧑‍💻 About me
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=shams-imran&" alt="shams-imran" /></p>
+```yaml
+whoami:
+  role: Lead DevOps Engineer @ Red Dot Digital IT Ltd.
+  experience: 10+ years in software, 5+ focused on DevOps
+  in_production: 120+ microservices across fintech, telecom, FMCG and government
+  focus: [Kubernetes, GitOps, DevSecOps, Observability, Legacy-to-K8s migrations]
+  compliance: [PCI DSS, CIS Benchmarks, OWASP]
+  learning: [Platform engineering, System design]
+  ask_me_about: [Kubernetes, Docker, CI/CD, system design]
+  fun_fact: Most innocent-looking person in the room right after production goes down
+```
+
+---
+
+### 🏗️ What I've built and run
+
+- 💳 **Fintech (MFS) platforms:** deployed and operate **TeleCash, LenDen and MyCash**, and ran **UPAY**'s 120+ microservice platform with PCI DSS compliance, SAST/DAST and image scanning in CI/CD
+- 🔄 **Zero-data-loss migrations:** moved UPAY's entire platform to a new Kubernetes cluster, rebuilding Crunchy Postgres (PGO) and RookCeph storage; modernized a legacy IoT platform onto Kubernetes
+- 🛡️ **Supply-chain security:** Trivy scanning, cosign image signing, SonarQube, Vault-backed secrets, network policies and mTLS
+- 📈 **Observability:** ELK, Prometheus, Grafana and Fluent Bit stacks with real-time alerting to Slack
+- 🏛️ **Nationally critical systems:** National Data Integration Platform for law enforcement, a secure calling and messaging platform for Bangladesh Police's Joint Command Center, and BEZA's One-Stop Service Center
+
+👉 Full case studies on my [portfolio](https://shamsimran.iam.bd/projects).
+
+---
+
+### 🚀 Open-source projects
+
+| Project | What it does |
+|---|---|
+| [**RBACGrant**](https://github.com/shams-imran/RBACGrant) | Web GUI for Kubernetes RBAC: build Roles and bindings from a form, catch risky permissions before you apply, and hand out short-lived kubeconfigs. *(Python)* |
+| [**system-design-notes**](https://github.com/shams-imran/system-design-notes) | My running notes on designing coherent, well-behaved systems. |
+| [**design-patterns**](https://github.com/shams-imran/design-patterns) | Classic design patterns implemented and explained. *(PHP)* |
+
+---
+
+### 🛠️ Tech stack
+
+**Containers & Orchestration**
+<br/>
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white"/>
+<img src="https://img.shields.io/badge/Argo%20CD-EF7B4D?style=flat-square&logo=argo&logoColor=white"/>
+<img src="https://img.shields.io/badge/K3s-FFC61C?style=flat-square&logo=k3s&logoColor=black"/>
+<img src="https://img.shields.io/badge/Istio-466BB0?style=flat-square&logo=istio&logoColor=white"/>
+
+**CI/CD & Registries**
+<br/>
+<img src="https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white"/>
+<img src="https://img.shields.io/badge/Harbor-60B932?style=flat-square&logo=harbor&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
+
+**Infrastructure as Code & Cloud**
+<br/>
+<img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white"/>
+<img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vault-FFEC6E?style=flat-square&logo=vault&logoColor=black"/>
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white"/>
+<img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/>
+<img src="https://img.shields.io/badge/Huawei%20Cloud-FF0000?style=flat-square&logo=huawei&logoColor=white"/>
+
+**Security (DevSecOps)**
+<br/>
+<img src="https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aqua&logoColor=white"/>
+<img src="https://img.shields.io/badge/cosign-4B32C3?style=flat-square&logo=sigstore&logoColor=white"/>
+<img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white"/>
+<img src="https://img.shields.io/badge/Keycloak-4D4D4D?style=flat-square&logo=keycloak&logoColor=white"/>
+
+**Observability**
+<br/>
+<img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
+<img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white"/>
+<img src="https://img.shields.io/badge/Elastic%20Stack-005571?style=flat-square&logo=elasticstack&logoColor=white"/>
+<img src="https://img.shields.io/badge/Fluent%20Bit-49BDA5?style=flat-square&logo=fluentbit&logoColor=white"/>
+<img src="https://img.shields.io/badge/Loki-F46800?style=flat-square&logo=grafana&logoColor=white"/>
+
+**Networking & Gateways**
+<br/>
+<img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kong-003459?style=flat-square&logo=kong&logoColor=white"/>
+<img src="https://img.shields.io/badge/HAProxy-106DA9?style=flat-square&logo=haproxy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Traefik-24A1C1?style=flat-square&logo=traefikproxy&logoColor=white"/>
+
+**Data, Storage & Messaging**
+<br/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+<img src="https://img.shields.io/badge/Ceph-EF5C55?style=flat-square&logo=ceph&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
+<img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white"/>
+<img src="https://img.shields.io/badge/MinIO-C72E49?style=flat-square&logo=minio&logoColor=white"/>
+
+**Systems & Languages**
+<br/>
+<img src="https://img.shields.io/badge/Linux%20(RHEL%2FUbuntu)-FCC624?style=flat-square&logo=linux&logoColor=black"/>
+<img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/PHP%20%2F%20Laravel-777BB4?style=flat-square&logo=php&logoColor=white"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java%20(Spring%20Boot)-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
+
+---
+
+### 📊 GitHub stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=shams-imran&show_icons=true&hide_border=true&theme=transparent&count_private=true" alt="GitHub stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shams-imran&layout=compact&hide_border=true&theme=transparent" alt="Top languages"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=shams-imran&hide_border=true&theme=transparent" alt="GitHub streak"/>
+</p>
+
+<p align="center">
+  <a href="https://shamsimran.iam.bd/contact"><b>Open to opportunities: let's build resilient systems together →</b></a>
+  <br/><br/>
+  <img src="https://komarev.com/ghpvc/?username=shams-imran&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views"/>
+</p>
