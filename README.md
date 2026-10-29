@@ -50,6 +50,7 @@ whoami:
 | Project | What it does |
 |---|---|
 | [**RBACGrant**](https://github.com/shams-imran/RBACGrant) | Web GUI for Kubernetes RBAC: build Roles and bindings from a form, catch risky permissions before you apply, and hand out short-lived kubeconfigs. *(Python)* |
+| [**books**](https://github.com/shams-imran/books) ⭐ 696 | My curated engineering reading list: system design, SRE, Kubernetes, databases, algorithms, Java and TLS/cryptography. |
 
 ---
 
