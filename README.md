@@ -1,12 +1,12 @@
-<h1 align="center">Hi 👋, I'm Md. Shams Imran (Shuvo)</h1>
+<h1 align="center">Hi 👋, I'm Md. Shams Imran</h1>
 <h3 align="center">Lead DevOps Engineer · Kubernetes · GitOps · DevSecOps</h3>
-<p align="center">Dhaka, Bangladesh 🇧🇩 · <i>I break things on purpose so production doesn't break by accident.</i></p>
+<p align="center">Dhaka, Bangladesh 🇧🇩</p>
+<h3 align="center"><i>I break things on purpose so production doesn't break by accident.</i></h3>
 
 <p align="center">
   <a href="https://shamsimran.iam.bd"><img src="https://img.shields.io/badge/Portfolio-shamsimran.iam.bd-0e75b6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
   <a href="https://shamsimran.iam.bd/Resume_Of_Md_Shams_Imran.pdf"><img src="https://img.shields.io/badge/Resume-PDF-555555?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume"/></a>
-  <a href="https://www.linkedin.com/in/shams-imran"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://x.com/321shuvo"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
+  <a href="https://www.linkedin.com/in/shams-imran"><img height="28" src="https://skillicons.dev/icons?i=linkedin" alt=""/><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="LinkedIn"/></a>
   <a href="mailto:imranmdshams@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
@@ -21,13 +21,13 @@
 
 ```yaml
 whoami:
-  role: Lead DevOps Engineer @ Red Dot Digital IT Ltd.
-  experience: 10+ years in software, 5+ focused on DevOps
+  role: Lead DevOps Engineer @Red Dot Digital IT Ltd.
+  experience: 11+ years in software, 6+ focused on DevOps
   in_production: 120+ microservices across fintech, telecom, FMCG and government
-  focus: [Kubernetes, GitOps, DevSecOps, Observability, Legacy-to-K8s migrations]
-  compliance: [PCI DSS, CIS Benchmarks, OWASP]
-  learning: [Platform engineering, System design]
-  ask_me_about: [Kubernetes, Docker, CI/CD, system design]
+  focus: [Kubernetes, GitOps, DevSecOps, Observability, Optimization, Legacy-to-K8s migrations]
+  compliance: [CIS Benchmarks, PCI DSS]
+  learning: [DevOps, System design, Platform engineering]
+  ask_me_about: [Kubernetes, Docker, CI/CD, system design, optimization]
   fun_fact: Most innocent-looking person in the room right after production goes down
 ```
 
@@ -50,8 +50,6 @@ whoami:
 | Project | What it does |
 |---|---|
 | [**RBACGrant**](https://github.com/shams-imran/RBACGrant) | Web GUI for Kubernetes RBAC: build Roles and bindings from a form, catch risky permissions before you apply, and hand out short-lived kubeconfigs. *(Python)* |
-| [**system-design-notes**](https://github.com/shams-imran/system-design-notes) | My running notes on designing coherent, well-behaved systems. |
-| [**design-patterns**](https://github.com/shams-imran/design-patterns) | Classic design patterns implemented and explained. *(PHP)* |
 
 ---
 
@@ -74,27 +72,31 @@ whoami:
 <img src="https://img.shields.io/badge/Harbor-60B932?style=flat-square&logo=harbor&logoColor=white"/>
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
 
-**Infrastructure as Code & Cloud**
+**Infrastructure as Code**
 <br/>
-<img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white"/>
 <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white"/>
+<img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white"/>
 <img src="https://img.shields.io/badge/Vault-FFEC6E?style=flat-square&logo=vault&logoColor=black"/>
-<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white"/>
-<img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/>
+
+**Cloud Platforms**
+<br/>
+<img height="20" src="https://skillicons.dev/icons?i=aws" alt=""/><img src="https://img.shields.io/badge/AWS-242938?style=flat-square" alt="AWS"/>
+<img height="20" src="https://skillicons.dev/icons?i=azure" alt=""/><img src="https://img.shields.io/badge/Azure-242938?style=flat-square" alt="Azure"/>
 <img src="https://img.shields.io/badge/Huawei%20Cloud-FF0000?style=flat-square&logo=huawei&logoColor=white"/>
 
 **Security (DevSecOps)**
 <br/>
-<img src="https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aqua&logoColor=white"/>
-<img src="https://img.shields.io/badge/cosign-4B32C3?style=flat-square&logo=sigstore&logoColor=white"/>
-<img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white"/>
+<img src="https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=trivy&logoColor=white"/>
+<img src="https://img.shields.io/badge/SonarQube-126ED3?style=flat-square&logo=sonarqubeserver&logoColor=white"/>
 <img src="https://img.shields.io/badge/Keycloak-4D4D4D?style=flat-square&logo=keycloak&logoColor=white"/>
 
 **Observability**
 <br/>
 <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
 <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white"/>
-<img src="https://img.shields.io/badge/Elastic%20Stack-005571?style=flat-square&logo=elasticstack&logoColor=white"/>
+<img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white"/>
+<img src="https://img.shields.io/badge/Logstash-005571?style=flat-square&logo=logstash&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kibana-005571?style=flat-square&logo=kibana&logoColor=white"/>
 <img src="https://img.shields.io/badge/Fluent%20Bit-49BDA5?style=flat-square&logo=fluentbit&logoColor=white"/>
 <img src="https://img.shields.io/badge/Loki-F46800?style=flat-square&logo=grafana&logoColor=white"/>
 
@@ -129,9 +131,10 @@ whoami:
 
 ### 📊 GitHub stats
 
+<!-- These two cards are generated into this repo by .github/workflows/readme-stats.yml -->
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=shams-imran&show_icons=true&hide_border=true&theme=transparent&count_private=true" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shams-imran&layout=compact&hide_border=true&theme=transparent" alt="Top languages"/>
+  <img height="165" src="./profile/stats.svg" alt="GitHub stats"/>
+  <img height="165" src="./profile/top-langs.svg" alt="Top languages"/>
 </p>
 
 <p align="center">
