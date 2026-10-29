@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Md. Shams Imran</h1>
-<h3 align="center">Lead DevOps Engineer · Kubernetes · GitOps · DevSecOps</h3>
+<h3 align="center">Lead DevOps Engineer · Fintech · Kubernetes · GitOps · DevSecOps</h3>
 <p align="center">Dhaka, Bangladesh 🇧🇩</p>
 <h4 align="center"><i>I break things on purpose so production doesn't break by accident.</i></h4>
 
