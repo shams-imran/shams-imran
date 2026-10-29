@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Md. Shams Imran</h1>
 <h3 align="center">Lead DevOps Engineer · Kubernetes · GitOps · DevSecOps</h3>
 <p align="center">Dhaka, Bangladesh 🇧🇩</p>
-<h3 align="center"><i>I break things on purpose so production doesn't break by accident.</i></h3>
+<h4 align="center"><i>I break things on purpose so production doesn't break by accident.</i></h4>
 
 <p align="center">
   <a href="https://shamsimran.iam.bd"><img src="https://img.shields.io/badge/Portfolio-shamsimran.iam.bd-0e75b6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
@@ -76,7 +76,6 @@ whoami:
 <br/>
 <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white"/>
 <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vault-FFEC6E?style=flat-square&logo=vault&logoColor=black"/>
 
 **Cloud Platforms**
 <br/>
@@ -89,6 +88,7 @@ whoami:
 <img src="https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=trivy&logoColor=white"/>
 <img src="https://img.shields.io/badge/SonarQube-126ED3?style=flat-square&logo=sonarqubeserver&logoColor=white"/>
 <img src="https://img.shields.io/badge/Keycloak-4D4D4D?style=flat-square&logo=keycloak&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vault-FFEC6E?style=flat-square&logo=vault&logoColor=black"/>
 
 **Observability**
 <br/>
