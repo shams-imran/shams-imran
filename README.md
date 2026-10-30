@@ -22,12 +22,12 @@
 ```yaml
 whoami:
   role: Lead DevOps Engineer @Red Dot Digital IT Ltd.
-  experience: 11+ years in software, 6+ focused on DevOps
-  in_production: 120+ microservices across fintech, telecom, FMCG and government
-  focus: [Kubernetes, GitOps, DevSecOps, Observability, Optimization, Legacy-to-K8s migrations]
-  compliance: [CIS Benchmarks, PCI DSS]
-  learning: [DevOps, System design, Platform engineering]
-  ask_me_about: [Kubernetes, Docker, CI/CD, system design, optimization]
+  experience: 6+ Years in DevOps Engineering | 5+ Years in Software Engineering | 11+ Years of Overall IT Industry Experience 
+  in_production: 120+ microservices system across fintech, telecom, FMCG and government
+  focus: Kubernetes, GitOps, DevSecOps, Observability, Optimization, Legacy-to-K8s migrations
+  compliance: CIS Benchmarks, PCI DSS
+  learning: DevOps, System design, Platform engineering
+  ask_me_about: Kubernetes, Docker, CI/CD, System Design and Optimization
   fun_fact: Most innocent-looking person in the room right after production goes down
 ```
 
