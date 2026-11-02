@@ -1,6 +1,6 @@
 # Save as .github/workflows/readme-stats.yml in the shams-imran/shams-imran repo.
-# Builds the GitHub stats and top-languages cards inside the repo, so the
-# profile no longer depends on the public stats server (which has been paused).
+# Builds the GitHub stats, top-languages and streak cards inside the repo, so the
+# profile no longer depends on the public stats servers.
 name: Update README stats cards
 
 on:
@@ -31,6 +31,13 @@ jobs:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&hide_border=true&theme=transparent
           path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate streak card
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=${{ github.repository_owner }}&hide_border=true&theme=transparent&disable_animations=true&timezone=Asia/Dhaka
+          path: profile/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit cards
