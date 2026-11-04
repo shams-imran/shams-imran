@@ -7,6 +7,14 @@ on:
   schedule:
     - cron: "0 0 * * *"   # daily at 00:00 UTC
   workflow_dispatch:        # run it manually from the Actions tab
+  push:                     # re-generate right away when the card options change
+    branches: [master]
+    paths: [".github/workflows/readme-stats.yml"]
+
+# Never let two card updates race each other (e.g. cron + manual run).
+concurrency:
+  group: readme-stats-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -15,7 +23,11 @@ jobs:
       contents: write
 
     steps:
+      # Check out the branch tip, not the commit that triggered the run. Re-runs
+      # reuse the original commit, which may be behind by then.
       - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.ref_name }}
 
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v2
@@ -40,10 +52,38 @@ jobs:
           path: profile/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # The freshly generated cards are always the newest data, so replay them on
+      # top of the latest remote branch and retry if someone pushed in between.
       - name: Commit cards
+        env:
+          BRANCH: ${{ github.ref_name }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
-          git commit -m "Update README stats cards" || exit 0
-          git push
+
+          cards="$RUNNER_TEMP/cards"
+          mkdir -p "$cards"
+          cp profile/*.svg "$cards/"
+
+          for attempt in 1 2 3; do
+            git fetch origin "$BRANCH"
+            git reset --hard "origin/$BRANCH"
+            cp "$cards"/*.svg profile/
+            git add profile/*.svg
+
+            if git diff --cached --quiet; then
+              echo "Cards are unchanged; nothing to commit."
+              exit 0
+            fi
+
+            git commit -m "Update README stats cards"
+            if git push origin "HEAD:$BRANCH"; then
+              exit 0
+            fi
+
+            echo "Push rejected (attempt $attempt/3); retrying on the latest $BRANCH..."
+            sleep $((attempt * 5))
+          done
+
+          echo "::error::Could not push updated cards to $BRANCH after 3 attempts."
+          exit 1
