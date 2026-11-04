@@ -7,9 +7,19 @@ on:
   schedule:
     - cron: "0 0 * * *"   # daily at 00:00 UTC
   workflow_dispatch:        # run it manually from the Actions tab
+  push:                     # re-generate right away when the card options change
+    branches: [master]
+    paths: [".github/workflows/readme-stats.yml"]
+
+# Never let two card updates race each other (e.g. cron + manual run).
+concurrency:
+  group: readme-stats-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   build:
+    # Cards are committed back to a branch, so never run from a tag.
+    if: github.ref_type == 'branch'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -40,10 +50,40 @@ jobs:
           path: profile/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # The checked-out commit can be stale: a re-run reuses the original commit,
+      # and anyone may push while the cards are generated. The new cards are always
+      # the newest data, so replay just them onto the latest branch tip and retry
+      # if the push is rejected.
       - name: Commit cards
+        env:
+          BRANCH: ${{ github.ref_name }}
+          CARDS: stats.svg top-langs.svg streak.svg
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
-          git commit -m "Update README stats cards" || exit 0
-          git push
+
+          saved="$RUNNER_TEMP/cards"
+          mkdir -p "$saved"
+          for card in $CARDS; do cp "profile/$card" "$saved/"; done
+
+          for attempt in 1 2 3; do
+            if [ "$attempt" -gt 1 ]; then
+              echo "Retrying on the latest $BRANCH (attempt $attempt/3)..."
+              sleep $(( (attempt - 1) * 5 ))
+            fi
+
+            git fetch origin "+refs/heads/$BRANCH:refs/remotes/origin/$BRANCH" || continue
+            git reset --hard "refs/remotes/origin/$BRANCH"
+            for card in $CARDS; do cp "$saved/$card" profile/; git add "profile/$card"; done
+
+            if git diff --cached --quiet; then
+              echo "Cards are unchanged; nothing to commit."
+              exit 0
+            fi
+
+            git commit -m "Update README stats cards"
+            git push origin "HEAD:refs/heads/$BRANCH" && exit 0
+          done
+
+          echo "::error::Could not push updated cards to $BRANCH after 3 attempts."
+          exit 1
